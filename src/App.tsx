@@ -4,6 +4,7 @@ import { Dropdown } from "flowbite-react";
 import { language_codes } from "./assets/loadOptions";
 import ToggleDark from "./components/ToggleDark";
 
+console.log(import.meta.env.VITE_X_RAPIDAPI_KEY)
 interface LanguageCodes {
   [language: string]: string;
 }
@@ -32,8 +33,8 @@ function App() {
       url: "https://text-translator2.p.rapidapi.com/translate",
       headers: {
         "content-type": "application/x-www-form-urlencoded",
-        "X-RapidAPI-Key": import.meta.env.X_RAPIDAPI_KEY,
-        "X-RapidAPI-Host": import.meta.env.X_RAPIDAPI_HOST
+        "X-RapidAPI-Key": import.meta.env.VITE_X_RAPIDAPI_KEY,
+        "X-RapidAPI-Host": import.meta.env.VITE_X_RAPIDAPI_HOST
       },
       data: encodedParams,
     };
