@@ -4,7 +4,6 @@ import { Dropdown } from "flowbite-react";
 import { language_codes } from "./assets/loadOptions";
 import ToggleDark from "./components/ToggleDark";
 
-console.log(import.meta.env.VITE_X_RAPIDAPI_KEY)
 interface LanguageCodes {
   [language: string]: string;
 }
