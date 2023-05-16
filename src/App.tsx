@@ -69,12 +69,12 @@ function App() {
   return (
     <>
       <div
-        className={`flex justify-center items-center flex-col  w-full h-screen`}
+        className={`flex justify-center items-center flex-col w-full h-screen`}
       >
-        <h1 className=" text-5xl font-bold blue_gradient dark:orange_gradient">
+        <h1 className=" text-5xl font-bold blue_gradient dark:orange_gradient px-8">
           Text Translator{" "}
         </h1>
-        <div className="w-1/3 flex-start">
+        <div className="w-full flex-start md:w-1/3 px-8">
           <div className="mt-10 w-72">
             <p className=" mb-2 text-sm font-medium text-black dark:text-white">
               Choose the language

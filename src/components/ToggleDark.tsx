@@ -15,9 +15,9 @@ const ToggleDark = () => {
   };
 
   return (
-    <div className="dark:bg-gray-900 mt-10 flex items-center justify-center transition duration-500">
+    <div className="mt-10 flex items-center justify-center transition duration-500">
       <label className="relative w-14 h-8">
-        <input type="checkbox" id="toggle" className="opacity-0 w-0 h-0 peer " 
+        <input type="checkbox" id="toggle" className="opacity-0 w-0 h-0 peer  " 
           checked={darkSide} onChange={e => toggleDarkMode(e.target.checked)}
         />
         <span
