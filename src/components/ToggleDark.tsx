@@ -22,7 +22,7 @@ const ToggleDark = () => {
         />
         <span
           className="
-            slider absolute cursor-pointer top-0 left-0 right-0 bottom-0 bg-gray-300 transition duration-500 rounded-full background 
+            slider absolute top-0 left-0 right-0 bottom-0 bg-gray-300 transition duration-500 rounded-full background 
             before:absolute before:content-[''] before:h-6 before:w-6 before:left-1 before:top-1/2 before:transform before:-translate-y-1/2 
             before:bg-gradient-to-r before:from-pink-500 before:to-orange-500 before:transition before:duration-500 before:rounded-full
             peer-checked:before:left-[calc(100%-1.7rem)] peer-checked:before:bg-[#37393f] 
